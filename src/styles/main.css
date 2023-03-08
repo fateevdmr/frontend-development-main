@@ -1,0 +1,10 @@
+.main {
+  margin-bottom: 100px;
+}
+
+.main__phone-intro-and-price-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}

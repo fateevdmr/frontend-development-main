@@ -1,0 +1,26 @@
+.button-primary {
+  background: #f36223;
+
+  border: none;
+  border-radius: 4px;
+
+  color: white;
+}
+
+.button-primary:hover {
+  background: #da4a0c;
+
+  cursor: pointer;
+}
+
+.button-primary:active {
+  background: #a93a09;
+}
+
+.button-prymary-added {
+  background-color: #c4c4c4;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,62 @@
+html {
+  background-color: #f8fafe;
+
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+
+  font-size: 18px;
+
+  font-family: sans-serif;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden; */
+}
+
+a {
+  color: #018ad2;
+}
+
+a:hover {
+  color: #c00;
+}
+
+a:active {
+  color: #a93a09;
+}
+
+button {
+  padding: 8px 12px;
+
+  border: none;
+}
+
+ul {
+  position: relative;
+}
+
+li {
+  position: relative;
+  left: -25px;
+}
+
+.container {
+  /* width: 93%; */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1499px) {
+  .container {
+    width: 97%;
+  }
+}

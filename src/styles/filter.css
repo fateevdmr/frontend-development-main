@@ -1,0 +1,52 @@
+.filter__colors-img {
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #888888;
+  border-radius: 4px;
+
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.filter__colors-img:active {
+  border: 2px solid #a93a09;
+}
+
+.filter__colors-img:hover {
+  background-color: #f2f2f2;
+}
+
+.filter__colors-photos {
+  display: flex;
+}
+
+.filter__title {
+  margin-bottom: 15px;
+}
+
+.filter__memory-item {
+  padding: 10px 20px;
+  margin-right: 5px;
+
+  border: 1px solid #888888;
+  border-radius: 4px;
+
+  background-color: white;
+
+  font-weight: bold;
+}
+
+.filter__memory-item:active {
+  border: 2px solid #a93a09;
+}
+
+.filter__memory-item:hover {
+  background-color: #f2f2f2;
+}

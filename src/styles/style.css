@@ -1,0 +1,18 @@
+@import url('./normalize.css');
+@import url('./global.css');
+@import url('./header.css');
+@import url('./main.css');
+@import url('./phone-images.css');
+@import url('./phone-intro.css');
+@import url('./filter.css');
+@import url('./phone-price.css');
+@import url('./banner-farme.css');
+@import url('./price.css');
+@import url('./modes/button-modes.css');
+@import url('./feedback.css');
+@import url('./description.css');
+@import url('./footer.css');
+@import url('./add-comment.css');
+@import url('./buttons.css');
+@import url('./breadcrumbs.css');
+/* @import url('./home.css'); */

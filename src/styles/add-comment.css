@@ -1,0 +1,100 @@
+.add-comment__wrapper {
+  margin-top: 60px;
+
+  margin-left: 170px;
+}
+
+@media (min-width: 1024px) and (max-width: 1499px) {
+  .add-comment__wrapper {
+    margin-left: 0;
+  }
+}
+
+.add-comment {
+  width: 100%;
+}
+
+.add-comment__title {
+  margin-bottom: 15px;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.add-comment__name-raiting-wrapper {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-comment__person-name {
+  position: relative;
+  width: 67%;
+}
+
+.add-comment__person-name > input {
+  width: 100%;
+}
+
+.add-comment__raiting {
+  position: relative;
+  width: 22%;
+}
+
+.add-comment__raiting > input {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.add-comment__input-style {
+  padding: 15px 0;
+  padding-left: 20px;
+
+  border: 1px solid #888888;
+}
+
+.add-comment__input-style::placeholder {
+  color: #888888;
+  color: red;
+}
+
+.add-comment__text-area-wrapper {
+  position: relative;
+}
+
+.add-comment__text-area-block {
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  padding: 15px 20px;
+
+  display: block;
+
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+
+  min-height: 190px;
+
+  box-sizing: border-box;
+}
+
+.add-comment__submit {
+  padding: 10px 20px;
+
+  font-size: 16px;
+}
+
+.add-comment__validate {
+  position: absolute;
+  bottom: -25px;
+
+  min-width: max-content;
+  height: 15px;
+  background-color: orange;
+
+  padding: 5px 15px;
+
+  color: white;
+}

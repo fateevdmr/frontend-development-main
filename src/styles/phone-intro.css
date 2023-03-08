@@ -1,0 +1,9 @@
+.phone-intro__wrapper {
+  max-width: 61%;
+}
+
+@media (min-width: 1500px) {
+  .phone-intro__wrapper {
+    margin-right: 7%;
+  }
+}
